@@ -82,6 +82,15 @@ name = "Bob"
 age = 15
 ```
 
+There are multiple types of variables, like integers (for whole numbers) and strings (for text). You can convert between different variable types like so:
+
+```python
+age = 15 #An Integer
+message = "Hello I am " + age
+print(message)
+```
+
+
 Note here I did not assign types to these variables, as types are inferred, and can be changed (it's dynamic).
 
 ```python
